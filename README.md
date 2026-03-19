@@ -73,8 +73,15 @@ Detects IPs with more than 5 failed attempts within 10 minutes
 npm install
 ```
 
+### 2. Create `.env`
 
-### 2. Run server
+```
+PORT=3000 
+JWT_SECRET=your_secret
+MONGO_URI=your_mongodb_connection
+```
+
+### 3. Run server
 
 ```
 npm run dev
